@@ -1,0 +1,17 @@
+{"intents":  [
+  {
+    "tag": "greetings",
+    "patterns": ["hello","hi", "hey", "Greetings", "How is it going", "what is up", "what's up", " howdy", "Hi there", "bonjour"],
+    "responses": ["Hello!", "Greetings human", "Hey, What can I do for you", "Bonjour"]
+  },
+  {
+    "tag": "good bye",
+    "patterns": ["Bye","good bye", "see you", "catch you later", "Going out", "I dont feel like talking"],
+    "responses": ["Bye", "Good bye human", "Good bye!", "Stay hydrated, Good bye!"]
+  },
+  {
+    "tag": "funny",
+    "patterns": ["say something funny"],
+    "responses": ["No I will not"]
+  }
+]}
